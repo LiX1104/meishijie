@@ -14,6 +14,12 @@ const a=[
         name:"car",
         component:()=> import ('@/views/car/car.vue')
     },
+    {
+        path:'/detail',
+        name:"detail",
+        title:'详情',
+        component:()=> import ('@/views/detail/detail.vue')
+    },
 ]
 const router = new Router({
     mode:"history",
