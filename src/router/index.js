@@ -13,7 +13,11 @@ const a=[
         path:'/car',
         name:"car",
         component:()=> import ('@/views/car/car.vue')
-    },
+    },{
+        path:'/login',
+        name:"login",
+        component:()=> import ('@/views/logon/index.vue')
+    }
 ]
 const router = new Router({
     mode:"history",
