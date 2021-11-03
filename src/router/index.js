@@ -13,6 +13,7 @@ const a=[
         path:'/car',
         name:"car",
         component:()=> import ('@/views/car/car.vue')
+<<<<<<< HEAD
     },
     {
         path:'/detail',
@@ -20,6 +21,13 @@ const a=[
         title:'详情',
         component:()=> import ('@/views/detail/detail.vue')
     },
+=======
+    },{
+        path:'/login',
+        name:"login",
+        component:()=> import ('@/views/logon/index.vue')
+    }
+>>>>>>> b2066fd687b708ac84a05ac3dcaad9f31d8145c0
 ]
 const router = new Router({
     mode:"history",
